@@ -58,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
                 users = response.body();
                 mAdapter = new MyAdapter(users);
                 recyclerView.setAdapter(mAdapter);
-
             }
 
             @Override
