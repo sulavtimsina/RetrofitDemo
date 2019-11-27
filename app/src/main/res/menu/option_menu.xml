@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item android:title="GET" />
+        <item android:title="PUT" />
+        <item android:title="POST" android:id="@+id/menu_post" />
+    </group>
+    <group>
+        <item android:title="Settings"/>
+    </group>
+</menu>
